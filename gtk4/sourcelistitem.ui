@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created with Cambalache 0.16.0 -->
+<interface>
+  <requires lib="gtk" version="4.12"/>
+  <object class="GtkListItem">
+    <property name="child">
+      <object class="GtkLabel" id="label">
+        <!-- Custom fragments -->
+        <binding name="label">
+          <lookup name="string">
+            <lookup name="item">GtkListItem</lookup>
+          </lookup>
+        </binding>
+      </object>
+    </property>
+  </object>
+</interface>
