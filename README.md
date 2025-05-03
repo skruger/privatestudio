@@ -1,6 +1,12 @@
 # Private Studio
 Manage video assets through transcodeing and packaging.
 
+Minimum golang 1.19
+
+### Ubuntu build environment
+
+> sudo apt-get install build-essential golang-gir-gobject-2.0-dev libgraphene-1.0-dev libcairo-dev libpango1.0-dev libgdk-pixbuf2.0-dev libgtk-4-dev
+
 ### Windows build environment
 
 Install msys2 from https://www.msys2.org/ and use pacman to install gtk4 and other dependencies
